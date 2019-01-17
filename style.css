@@ -14,7 +14,7 @@ body {
 	display: block;
 	margin-top: 30px;
 	margin-left: 30px;
-	text-transform: uppercase;
+ 
 	font-family: 'Roboto', sans-serif;
 }
 .zaglavlje p {
@@ -53,7 +53,7 @@ body {
 /* ------ Navigacija / početak ------ */
 .navigacija {
 	height: 70px;
-	background-color: #F1C40F;
+	background-color: #345678;
 }
 .navigacija li {
 	display: inline;
@@ -62,7 +62,9 @@ body {
 }
 .navigacija li a {
 	line-height: 70px;
-	color: #000;
+	color: #fff;
+    text-transform: uppercase;
+
 	text-decoration: none;
 	font-size: 18pt;
 }
@@ -106,7 +108,8 @@ body {
 }
 .slider h2 {
 	font-size: 18pt;
-	text-transform: uppercase;
+    
+ 
 }
 .slider p {
 	font-size: 14pt;
@@ -118,7 +121,6 @@ body {
 
 /* ------ Galerija / početak ------ */
 .galerija h1 {
-	text-transform: uppercase;
 	font-size: 24pt;
 	text-align: center;
 	padding-top: 60px;
@@ -155,7 +157,7 @@ body {
 }
 .galerija .maska .naziv-rada {
 	font-size: 18pt;
-	text-transform: uppercase;
+
 }
 .galerija .maska .kategorija {
 	font-size: 14pt;
@@ -164,7 +166,7 @@ body {
 
 /* ------ Kontakt / početak ------ */
 .kontakt {
-	background-color: #F1C40F;
+	background-color: #345678;
 	padding: 50px 30px;
 	margin-top: 60px;
 }
@@ -254,7 +256,7 @@ body {
 /* ------ O meni / početak ------ */
 .o-meni h1,
 .vjestine h1 {
-	text-transform: uppercase;
+ 
 	font-size: 24pt;
 	text-align: center;
 	padding-top: 60px;
@@ -263,11 +265,11 @@ body {
 .vjestina {
 	height: 250px;
 }
-.vjestina.svijetlo-siva {
-	background-color: #F0F0F0;
+.vjestina.svijetlo-plava {
+	background-color: #abcafc;
 }
-.vjestina.tamno-siva {
-	background-color: #E0E0E0;
+.vjestina.tamno-plava {
+	background-color: #345678;
 }
 @media screen and (max-width:767px) {
 	.vjestina:nth-child(odd) {
@@ -285,7 +287,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	text-transform: uppercase;
+ 
 	text-align: center;
 	font-size: 14pt;
 }
@@ -298,7 +300,7 @@ body {
 
 /* ------ Članci / početak ------ */
 .clanci h1 {
-	text-transform: uppercase;
+ 
 	font-size: 24pt;
 	text-align: center;
 	padding-top: 60px;
@@ -331,7 +333,7 @@ body {
 
 /* ------ Društvene mreže / početak ------ */
 .social-profiles h1 {
-	text-transform: uppercase;
+ 
 	font-size: 24pt;
 	text-align: center;
 	padding-top: 60px;
@@ -340,10 +342,10 @@ body {
 .social-profile {
 	height: 250px;
 }
-.social-profile.svijetlo-siva {
+.social-profile.svijetlo-plava {
 	background-color: #F0F0F0;
 }
-.social-profile.tamno-siva {
+.social-profile.tamno-plava {
 	background-color: #E0E0E0;
 }
 @media screen and (max-width:767px) {
@@ -359,7 +361,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	text-transform: uppercase;
+ 
 	text-align: center;
 	font-size: 32pt;
 }
